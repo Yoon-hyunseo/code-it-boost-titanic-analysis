@@ -1,2 +1,4 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+import pandas as pd
+data_titanic=pd.read_csv('https://www.kaggle.com/c/titanic/data') #타이타닉 데이터 불러오기
+print(data_titanic.head())  # data_titanic 확인하기
+
