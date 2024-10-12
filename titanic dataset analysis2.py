@@ -1,6 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+
 #타이타닉 데이터 불러오기
 data1=pd.read_csv(r"C:\Users\82108\OneDrive\gender_submission.csv")
 data2=pd.read_csv(r"C:\Users\82108\OneDrive\test.csv")
